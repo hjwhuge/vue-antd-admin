@@ -1,13 +1,9 @@
 ## 项目简介
 
-1. 基于 [vitesse](https://github.com/antfu/vitesse)
-2. 只涉及项目初始化必要配置，布局，第三方 UI 框架需自行引入
+1. 基于 [pc-vue-template](https://github.com/hjwhuge/pc-vue-template)
+2. 基于vite2.x + vue3.x + ant-design-vue3.x + typescript 的基础后台管理系统模板
 
 ## 特性
-
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - 就是快！
-
-- 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
 
 - 📦 完善的代码规范配置；eslint + prettierrc + editorconfig + husky
 
@@ -32,6 +28,16 @@
 - [Vitest](https://github.com/vitest-dev/vitest) - 基于 Vite 的单元测试框架
 - [pnpm](https://pnpm.js.org/) - 快, 节省磁盘空间的包管理器
 - [Netlify](https://www.netlify.com/) - 零配置的部署
+
+## 待添加功能
+
+- [ ] 布局 layout
+- [ ] 常用第三方库引入（antd、echarts...）
+- [ ] 权限控制
+- [ ] D3 使用
+- [ ] 富文本
+- [ ] Markdown
+- [ ] 工具函数添加
 
 ## 使用
 
