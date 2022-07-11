@@ -5,6 +5,7 @@ import { UserConfigExport, ConfigEnv } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
+import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 import Unocss from 'unocss/vite'
 import { viteMockServe } from 'vite-plugin-mock'
 
@@ -31,6 +32,7 @@ export default ({ command }: ConfigEnv): UserConfigExport => {
       // https://github.com/antfu/vite-plugin-components
       Components({
         dts: true,
+        resolvers: [AntDesignVueResolver()],
       }),
 
       // https://github.com/antfu/unocss
